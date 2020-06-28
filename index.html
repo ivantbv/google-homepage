@@ -10,20 +10,20 @@
     </head>
     <body>
         
- <header> <a href="#">Gmail</a> <a href="#">Images</a> <button>Sign In</button></header>
+ <header> <a href="#">Gmail</a> <a href="#">Images</a> <span id="button"><button class="sign-in">Sign In</button></span>
+</header>
  <div class="push"> </div>
         <div class="g-logo"> <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" id="google-logo" alt="Google's logo">
         </div>
 
-        
-
-    <div class="text-field">
-        <form>
-    <input type="text">
- <input type="image" src="https://cdn2.iconfinder.com/data/icons/clean-simple/75/search-512.png" alt="Search" height="2px">
     
+        <form id="search-form">
+            <div class="search">
+                <input type="text" name="search" class="round" />
+ <input type="submit" class="corner" value="" />
+</div>
     </form>
-    </div>
+    
 
     <div class="g-buttons"> 
     <button class="google-search">Google Search</button>

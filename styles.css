@@ -13,39 +13,39 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+    }
 
-}
-
-.text-field, input[type=text] {
-   margin: auto;
-
-    /* grid-template-columns: repeat(3, minmax(90px, 1fr)); */
-   width: 328px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   position: relative;
-
-  border: 1px solid #ccc;
-  /* box-sizing: border-box; */
-
-}
-
-input[type=text]:hover{
-
-}
-
-input[type=image] {
-    width: 30px;;
-    height: 90%;
+.round {
+    width: 100%;
+    border-radius: 15px;
+    border: 0.1px #222 solid;
+    padding: 5px 5px 5px 25px;
     position: absolute;
-    position: left;
     top: 0;
     left: 0;
-    cursor: text;
+    z-index: 5;
 }
+
+.corner {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    height: 20px;
+    width: 20px;
+    z-index: 10;
+    border-radius: 11px;
+    border: none;
+    background-image: url("https://cdn2.iconfinder.com/data/icons/font-awesome/1792/search-512.png"); 
+    background-repeat: no-repeat;
+    background-size: 1.8vw;
+}
+
+.search {
+    position: relative;
+    width: 390px;
+    height: 30px;
+}
+
 
 .g-buttons {
     
@@ -94,6 +94,31 @@ header > a:hover{
   text-decoration: underline;
 }
 
+.sign-in {
+    border: 1px solid #4285f4;
+font-weight: bold;
+outline: none;
+background: #4285f4;
+background: -moz-linear-gradient(top,#4387fd,#4683ea);
+font-family: arial,sans-serif;
+display: inline-block;
+line-height: 28px;
+padding: 0 12px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+font-size: 13px;
+color: white;
+text-align: left;
+cursor: default;
+text-decoration: none;
+}
+
+.sign-in:active {
+    box-shadow: inset 0 2px 0 rgba(0,0,0,.15);
+background: #3c78dc;
+background: -moz-linear-gradient(top,#3c7ae4,#3f76d3);
+}
+
 .footer {
     font-family: arial,sans-serif;
     display: inline-block;
@@ -118,6 +143,11 @@ header > a:hover{
     border-top-color: rgb(228, 228, 228);
     border-top-style: solid;
     border-top-width: 1px;
+
+    /* display: flex;
+    align-items: flex-end; */
+    position: absolute;
+    bottom: -50px; 
 }
 
 #footer-links > a {
@@ -137,11 +167,15 @@ header > a:hover{
 #push-right > a {
     color: #5f6368;
     text-decoration: none;
-    display: inline-block;
+    /* display: inline-block; */
     white-space: nowrap;
     padding-left: 27px;
     margin: 0 !important;
     font-size: 13px;
+
+    display: inline-grid;
+    j
+    
 }
 
 #push-right > a:hover {
