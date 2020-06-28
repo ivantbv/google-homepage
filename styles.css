@@ -1,6 +1,41 @@
+body {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(20%, 5);
+    grid-template-rows:  repeat(20%, 5);
+}
+
 .g-logo {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    
+
+}
+
+.text-field, input[type=text] {
+   margin: auto;
+
+    /* grid-template-columns: repeat(3, minmax(90px, 1fr)); */
+   width: 328px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.g-buttons {
+    
+        margin: auto;
+     
+         /* grid-template-columns: repeat(3, minmax(90px, 1fr)); */
+        width: 328px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.parag {
+    font-size: 15px;
     
 }
