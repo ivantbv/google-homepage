@@ -5,6 +5,10 @@ body {
     grid-template-rows:  repeat(20%, 5);
 }
 
+.push {
+    padding-top: 190px;
+}
+
 .g-logo {
     display: flex;
     justify-content: center;
@@ -22,6 +26,25 @@ body {
    display: flex;
    justify-content: center;
    align-items: center;
+   position: relative;
+
+  border: 1px solid #ccc;
+  /* box-sizing: border-box; */
+
+}
+
+input[type=text]:hover{
+
+}
+
+input[type=image] {
+    width: 30px;;
+    height: 90%;
+    position: absolute;
+    position: left;
+    top: 0;
+    left: 0;
+    cursor: text;
 }
 
 .g-buttons {
@@ -36,6 +59,92 @@ body {
 }
 
 .parag {
-    font-size: 15px;
+    font-size: small;
+    display: flex;
+    justify-content: center;
     
 }
+
+header {
+min-width: 165px;
+padding-left: 30px;
+padding-right: 30px;
+position: relative;
+text-align: right;
+z-index: 986;
+align-items: center;
+justify-content: flex-end;
+-moz-user-select: -moz-none;
+white-space: nowrap;
+font-family: arial,sans-serif;
+
+}
+
+header > a {
+    color: #5f6368;
+text-decoration: none;
+display: inline-block;
+white-space: nowrap;
+padding-left: 27px;
+margin: 0 !important;
+font-size: 13px;
+}
+
+header > a:hover{
+  text-decoration: underline;
+}
+
+.footer {
+    font-family: arial,sans-serif;
+    display: inline-block;
+
+}
+
+#footer {
+
+    background: #f2f2f2;
+    background-color: rgb(242, 242, 242);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+    border-top-color: rgb(228, 228, 228);
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+#footer-links > a {
+    color: #5f6368;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 27px;
+    margin: 0 !important;
+    font-size: 13px;
+}
+
+#footer-links > a:hover{
+    text-decoration: underline;
+}
+
+#push-right > a {
+    color: #5f6368;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 27px;
+    margin: 0 !important;
+    font-size: 13px;
+}
+
+#push-right > a:hover {
+    text-decoration: underline;
+}
+
