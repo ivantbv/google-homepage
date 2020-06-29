@@ -6,7 +6,7 @@ body {
 }
 
 .push {
-    padding-top: 190px;
+    padding-top: 125px;
 }
 
 .g-logo {
@@ -51,7 +51,7 @@ body {
     display: flex;
 justify-content: center;
 padding-top: 20px;
-height: 100px;
+height: 70px;
 }
 
 .g-buttons {
@@ -62,7 +62,41 @@ height: 100px;
         width: 328px;
         display: flex;
         justify-content: center;
-        align-items: flex-end;
+        justify-content: space-around;
+}
+
+.google-search, .feeling-lucky {
+    background-color:rgb(242, 242, 242);
+    border: 1px solid rgb(242, 242, 242);
+    cursor: pointer;
+
+    padding-bottom: 11px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 11px;
+    text-decoration: none;
+    color: grey;
+    border-radius: 2px;
+font-size: 15px;
+
+}
+
+.feeling-lucky:hover {
+   box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+   background-color: #f8f8f8;
+   border: 1px solid #c6c6c6;
+   color: #222;
+}
+
+.google-search:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+ }
+
+.container {
+    padding: 10px;
 }
 
 .parag {
