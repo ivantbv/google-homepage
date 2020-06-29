@@ -222,7 +222,10 @@ background: -moz-linear-gradient(top,#3c7ae4,#3f76d3);
 }
 
 #push-right {
-   
+   float: right;
+   padding-right: 25px;
+
+   padding-left: 5px;
 }
 
 #push-right > a {
