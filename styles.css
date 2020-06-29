@@ -40,6 +40,7 @@ body {
     background-image: url("https://cdn2.iconfinder.com/data/icons/font-awesome/1792/search-512.png"); 
     background-repeat: no-repeat;
     background-size: 85%;
+    opacity: 0.5;
 }
 
 .search {
@@ -53,6 +54,10 @@ body {
 justify-content: center;
 padding-top: 20px;
 height: 70px;
+}
+
+input[type=text]:focus {
+    outline: none;
 }
 
 .g-buttons {
@@ -127,13 +132,19 @@ header > a {
 text-decoration: none;
 display: inline-block;
 white-space: nowrap;
-padding-left: 27px;
+padding-left: 22px;
 margin: 0 !important;
 font-size: 13px;
+
+padding-right: 11px;
 }
 
 header > a:hover{
   text-decoration: underline;
+}
+
+header > a:focus {
+    outline: none;
 }
 
 .sign-in {
@@ -206,21 +217,28 @@ background: -moz-linear-gradient(top,#3c7ae4,#3f76d3);
     text-decoration: underline;
 }
 
+#footer-links > a:focus{
+    outline: none;
+}
+
+#push-right {
+   
+}
+
 #push-right > a {
     color: #5f6368;
     text-decoration: none;
-    /* display: inline-block; */
     white-space: nowrap;
     padding-left: 27px;
     margin: 0 !important;
-    font-size: 13px;
-
-    display: inline-grid;
-    j
-    
+    font-size: 13px;   
 }
 
 #push-right > a:hover {
     text-decoration: underline;
+}
+
+#push-right > a:focus {
+    outline: none;
 }
 
